@@ -1,0 +1,136 @@
+{
+  "version": "v5-jieba-cmaes-optimized",
+  "timestamp": "2026-03-16T00:54:53.100Z",
+  "singleQuery": {
+    "avgLatency": 753.2,
+    "maxLatency": 821,
+    "minLatency": 724,
+    "results": [
+      {
+        "query": "中国 AI 发展历程",
+        "tokens": 3,
+        "weightedTokens": 3,
+        "tokenizeLatency": 821,
+        "matchLatency": 0,
+        "totalLatency": 821,
+        "bestMatch": "chinese_ai_report.md",
+        "score": 1
+      },
+      {
+        "query": "计算机视觉技术应用",
+        "tokens": 3,
+        "weightedTokens": 1,
+        "tokenizeLatency": 731,
+        "matchLatency": 0,
+        "totalLatency": 731,
+        "bestMatch": "chinese_ai_report.md",
+        "score": 1
+      },
+      {
+        "query": "大模型部署方案",
+        "tokens": 3,
+        "weightedTokens": 2,
+        "tokenizeLatency": 724,
+        "matchLatency": 0,
+        "totalLatency": 724,
+        "bestMatch": "open_source_llm_guide.md",
+        "score": 1
+      },
+      {
+        "query": "LoRA 微调方法",
+        "tokens": 3,
+        "weightedTokens": 2,
+        "tokenizeLatency": 764,
+        "matchLatency": 0,
+        "totalLatency": 764,
+        "bestMatch": "open_source_llm_guide.md",
+        "score": 1
+      },
+      {
+        "query": "智慧城市应用案例",
+        "tokens": 3,
+        "weightedTokens": 2,
+        "tokenizeLatency": 746,
+        "matchLatency": 0,
+        "totalLatency": 746,
+        "bestMatch": "chinese_ai_report.md",
+        "score": 1
+      },
+      {
+        "query": "医学影像分析",
+        "tokens": 2,
+        "weightedTokens": 0,
+        "tokenizeLatency": 736,
+        "matchLatency": 0,
+        "totalLatency": 736,
+        "bestMatch": "medical_ai_guide.md",
+        "score": 1
+      },
+      {
+        "query": "智能合同审查",
+        "tokens": 3,
+        "weightedTokens": 1,
+        "tokenizeLatency": 776,
+        "matchLatency": 0,
+        "totalLatency": 776,
+        "bestMatch": "legal_tech_practice.md",
+        "score": 1
+      },
+      {
+        "query": "信用风险评估",
+        "tokens": 2,
+        "weightedTokens": 0,
+        "tokenizeLatency": 742,
+        "matchLatency": 0,
+        "totalLatency": 742,
+        "bestMatch": "fintech_risk_management.md",
+        "score": 1
+      },
+      {
+        "query": "量化交易",
+        "tokens": 2,
+        "weightedTokens": 0,
+        "tokenizeLatency": 756,
+        "matchLatency": 0,
+        "totalLatency": 756,
+        "bestMatch": "fintech_risk_management.md",
+        "score": 1
+      },
+      {
+        "query": "自然语言处理技术",
+        "tokens": 2,
+        "weightedTokens": 1,
+        "tokenizeLatency": 736,
+        "matchLatency": 0,
+        "totalLatency": 736,
+        "bestMatch": "chinese_ai_report.md",
+        "score": 1
+      }
+    ]
+  },
+  "concurrentQuery": {
+    "results": [
+      {
+        "concurrency": 1,
+        "totalTime": 7314,
+        "qps": "1.37"
+      },
+      {
+        "concurrency": 5,
+        "totalTime": 7428,
+        "qps": "1.35"
+      },
+      {
+        "concurrency": 10,
+        "totalTime": 7315,
+        "qps": "1.37"
+      },
+      {
+        "concurrency": 20,
+        "totalTime": 7453,
+        "qps": "1.34"
+      }
+    ]
+  },
+  "recallRate": 100
+}

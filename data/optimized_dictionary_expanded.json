@@ -1,0 +1,478 @@
+{
+  "version": "v7-cmaes-retrained-expanded-93terms",
+  "timestamp": "2026-03-13T19:36:05.086Z",
+  "dictionary": [
+    {
+      "term": "人工智能",
+      "weight": 1.0202555149522123,
+      "frequency": 2
+    },
+    {
+      "term": "AI",
+      "weight": 1.086139262697746,
+      "frequency": 23
+    },
+    {
+      "term": "大模型",
+      "weight": 1.1957448852375283,
+      "frequency": 6
+    },
+    {
+      "term": "LLM",
+      "weight": 0.9828693031207492,
+      "frequency": 15
+    },
+    {
+      "term": "深度学习",
+      "weight": 0.8320547395938915,
+      "frequency": 4
+    },
+    {
+      "term": "机器学习",
+      "weight": 1.033903787326143,
+      "frequency": 3
+    },
+    {
+      "term": "神经网络",
+      "weight": 1.1059370165675628,
+      "frequency": 3
+    },
+    {
+      "term": "自然语言处理",
+      "weight": 1.1605564446652608,
+      "frequency": 4
+    },
+    {
+      "term": "NLP",
+      "weight": 0.847665320997678,
+      "frequency": 1
+    },
+    {
+      "term": "计算机视觉",
+      "weight": 1.0027404057796439,
+      "frequency": 0
+    },
+    {
+      "term": "CV",
+      "weight": 0.882545360100597,
+      "frequency": 0
+    },
+    {
+      "term": "图像识别",
+      "weight": 0.8801653635417728,
+      "frequency": 0
+    },
+    {
+      "term": "目标检测",
+      "weight": 0.816851761438413,
+      "frequency": 1
+    },
+    {
+      "term": "开源",
+      "weight": 0.8414159840025195,
+      "frequency": 5
+    },
+    {
+      "term": "部署",
+      "weight": 0.9818801589647157,
+      "frequency": 15
+    },
+    {
+      "term": "微调",
+      "weight": 1.1524501590931293,
+      "frequency": 1
+    },
+    {
+      "term": "fine-tuning",
+      "weight": 0.9775535055118066,
+      "frequency": 0
+    },
+    {
+      "term": "LoRA",
+      "weight": 0.910830633130557,
+      "frequency": 0
+    },
+    {
+      "term": "智慧城市",
+      "weight": 1.0062378266260417,
+      "frequency": 0
+    },
+    {
+      "term": "智能城市",
+      "weight": 1.0042280330589362,
+      "frequency": 0
+    },
+    {
+      "term": "城市大脑",
+      "weight": 0.9744089809869017,
+      "frequency": 0
+    },
+    {
+      "term": "发展历程",
+      "weight": 0.8484086013985894,
+      "frequency": 2
+    },
+    {
+      "term": "演进",
+      "weight": 0.8903270379956642,
+      "frequency": 2
+    },
+    {
+      "term": "里程碑",
+      "weight": 1.191918843594264,
+      "frequency": 2
+    },
+    {
+      "term": "应用场景",
+      "weight": 0.9385518840869841,
+      "frequency": 4
+    },
+    {
+      "term": "落地",
+      "weight": 1.1357694843052892,
+      "frequency": 0
+    },
+    {
+      "term": "案例",
+      "weight": 1.1701977436702522,
+      "frequency": 2
+    },
+    {
+      "term": "检索",
+      "weight": 0.9022135487553837,
+      "frequency": 9
+    },
+    {
+      "term": "召回率",
+      "weight": 1.0050568667671846,
+      "frequency": 1
+    },
+    {
+      "term": "准确率",
+      "weight": 1.1760269260019862,
+      "frequency": 3
+    },
+    {
+      "term": "RAG",
+      "weight": 1.1829727900321778,
+      "frequency": 0
+    },
+    {
+      "term": "索引",
+      "weight": 1.1576514186974984,
+      "frequency": 1
+    },
+    {
+      "term": "查询",
+      "weight": 1.1060807619444566,
+      "frequency": 5
+    },
+    {
+      "term": "检索引擎",
+      "weight": 1.086450174510682,
+      "frequency": 0
+    },
+    {
+      "term": "Qwen",
+      "weight": 0.8042779188686044,
+      "frequency": 12
+    },
+    {
+      "term": "通义千问",
+      "weight": 0.957866040040621,
+      "frequency": 1
+    },
+    {
+      "term": "百度",
+      "weight": 1.1668382908121986,
+      "frequency": 0
+    },
+    {
+      "term": "阿里",
+      "weight": 1.1967412207540278,
+      "frequency": 1
+    },
+    {
+      "term": "腾讯",
+      "weight": 1.0224747943332302,
+      "frequency": 0
+    },
+    {
+      "term": "LM Studio",
+      "weight": 0.9575492902400814,
+      "frequency": 0
+    },
+    {
+      "term": "Ollama",
+      "weight": 1.0831360041191627,
+      "frequency": 1
+    },
+    {
+      "term": "vLLM",
+      "weight": 0.8088845171603108,
+      "frequency": 15
+    },
+    {
+      "term": "ModelScope",
+      "weight": 1.132087010904688,
+      "frequency": 2
+    },
+    {
+      "term": "肺结节",
+      "weight": 1.1890323240061877,
+      "frequency": 0
+    },
+    {
+      "term": "眼底",
+      "weight": 0.8306030869281837,
+      "frequency": 2
+    },
+    {
+      "term": "筛查",
+      "weight": 0.9965454382177787,
+      "frequency": 4
+    },
+    {
+      "term": "检测",
+      "weight": 0.8385752899427432,
+      "frequency": 5
+    },
+    {
+      "term": "CT",
+      "weight": 0.9976250698797097,
+      "frequency": 1
+    },
+    {
+      "term": "MRI",
+      "weight": 0.8806834379981155,
+      "frequency": 0
+    },
+    {
+      "term": "糖尿病",
+      "weight": 0.8055265572508429,
+      "frequency": 1
+    },
+    {
+      "term": "视网膜",
+      "weight": 0.8673853447734646,
+      "frequency": 1
+    },
+    {
+      "term": "病变",
+      "weight": 0.8321305863975811,
+      "frequency": 2
+    },
+    {
+      "term": "Grad-CAM",
+      "weight": 1.0850538510589403,
+      "frequency": 0
+    },
+    {
+      "term": "注意力机制",
+      "weight": 0.8267138816240827,
+      "frequency": 0
+    },
+    {
+      "term": "LoRA",
+      "weight": 0.8110146821440212,
+      "frequency": 0
+    },
+    {
+      "term": "微调",
+      "weight": 1.061913237263611,
+      "frequency": 1
+    },
+    {
+      "term": "量化",
+      "weight": 0.9114868118972241,
+      "frequency": 12
+    },
+    {
+      "term": "推理",
+      "weight": 0.9458264227158953,
+      "frequency": 10
+    },
+    {
+      "term": "加速",
+      "weight": 0.9172155531191295,
+      "frequency": 1
+    },
+    {
+      "term": "TensorRT",
+      "weight": 1.1130948003744021,
+      "frequency": 14
+    },
+    {
+      "term": "vLLM",
+      "weight": 0.8188730507052342,
+      "frequency": 15
+    },
+    {
+      "term": "GPU",
+      "weight": 0.8326586634997148,
+      "frequency": 9
+    },
+    {
+      "term": "显存",
+      "weight": 1.1739469512610219,
+      "frequency": 12
+    },
+    {
+      "term": "并发",
+      "weight": 1.0805293694576428,
+      "frequency": 11
+    },
+    {
+      "term": "架构",
+      "weight": 0.9244895937849307,
+      "frequency": 11
+    },
+    {
+      "term": "性能",
+      "weight": 1.0001423348196843,
+      "frequency": 2
+    },
+    {
+      "term": "优化",
+      "weight": 1.125004059026822,
+      "frequency": 13
+    },
+    {
+      "term": "训练",
+      "weight": 0.9340796958366298,
+      "frequency": 6
+    },
+    {
+      "term": "数据",
+      "weight": 0.8531922652884179,
+      "frequency": 10
+    },
+    {
+      "term": "模型",
+      "weight": 1.0288960884754186,
+      "frequency": 28
+    },
+    {
+      "term": "技术",
+      "weight": 1.0178200354935454,
+      "frequency": 12
+    },
+    {
+      "term": "方法",
+      "weight": 0.8468037614465604,
+      "frequency": 4
+    },
+    {
+      "term": "方案",
+      "weight": 1.0471084134111242,
+      "frequency": 8
+    },
+    {
+      "term": "实践",
+      "weight": 0.9267194186887493,
+      "frequency": 2
+    },
+    {
+      "term": "部署",
+      "weight": 1.1164995204079906,
+      "frequency": 15
+    },
+    {
+      "term": "配置",
+      "weight": 1.1794736581463625,
+      "frequency": 10
+    },
+    {
+      "term": "环境",
+      "weight": 1.1900081041802404,
+      "frequency": 2
+    },
+    {
+      "term": "安装",
+      "weight": 1.1468580645939466,
+      "frequency": 5
+    },
+    {
+      "term": "使用",
+      "weight": 1.1805771753119345,
+      "frequency": 6
+    },
+    {
+      "term": "医疗",
+      "weight": 1.1559018518150668,
+      "frequency": 3
+    },
+    {
+      "term": "法律",
+      "weight": 0.8683575741776006,
+      "frequency": 5
+    },
+    {
+      "term": "金融",
+      "weight": 0.9450269499153903,
+      "frequency": 2
+    },
+    {
+      "term": "科技",
+      "weight": 1.1851118328209906,
+      "frequency": 4
+    },
+    {
+      "term": "应用",
+      "weight": 0.9465778334812646,
+      "frequency": 7
+    },
+    {
+      "term": "###",
+      "weight": 0.957935133322976,
+      "frequency": 51
+    },
+    {
+      "term": "##",
+      "weight": 1.062415486418022,
+      "frequency": 26
+    },
+    {
+      "term": "self",
+      "weight": 1.0871413449083238,
+      "frequency": 19
+    },
+    {
+      "term": "---",
+      "weight": 0.9866028501376183,
+      "frequency": 17
+    },
+    {
+      "term": "size",
+      "weight": 0.9589742968019185,
+      "frequency": 15
+    },
+    {
+      "term": "可以",
+      "weight": 0.9789059342209845,
+      "frequency": 14
+    },
+    {
+      "term": "embed",
+      "weight": 0.9719659078511669,
+      "frequency": 13
+    },
+    {
+      "term": "场景",
+      "weight": 0.8913216661685407,
+      "frequency": 10
+    },
+    {
+      "term": "--",
+      "weight": 1.1337338689555496,
+      "frequency": 10
+    }
+  ],
+  "trainingDocs": 14,
+  "totalTerms": 973,
+  "baseTerms": 84,
+  "additionalTerms": 50,
+  "finalTerms": 93,
+  "finalScore": 7.344274850112123,
+  "generations": 30
+}

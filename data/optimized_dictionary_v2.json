@@ -1,0 +1,713 @@
+{
+  "version": "v6-cmaes-retrained-14docs",
+  "timestamp": "2026-03-13T21:23:57.511Z",
+  "dictionary": [
+    {
+      "term": "###",
+      "weight": 1.093061245046383,
+      "frequency": 180
+    },
+    {
+      "term": "```",
+      "weight": 2.914987217884509,
+      "frequency": 97
+    },
+    {
+      "term": "##",
+      "weight": 1.1287142331815163,
+      "frequency": 88
+    },
+    {
+      "term": "---",
+      "weight": 2.3709096157195044,
+      "frequency": 76
+    },
+    {
+      "term": "AI",
+      "weight": 0.8277589726769902,
+      "frequency": 57
+    },
+    {
+      "term": "```python",
+      "weight": 1.539599792246267,
+      "frequency": 49
+    },
+    {
+      "term": "模型",
+      "weight": 1.8596845001995184,
+      "frequency": 40
+    },
+    {
+      "term": "self",
+      "weight": 1.8032995263475615,
+      "frequency": 39
+    },
+    {
+      "term": "import",
+      "weight": 1.9272333489346418,
+      "frequency": 39
+    },
+    {
+      "term": "model",
+      "weight": 2.640165811512275,
+      "frequency": 37
+    },
+    {
+      "term": "vLLM",
+      "weight": 1.6795106596092741,
+      "frequency": 36
+    },
+    {
+      "term": "def",
+      "weight": 1.5031873918891947,
+      "frequency": 32
+    },
+    {
+      "term": "return",
+      "weight": 2.667548893609592,
+      "frequency": 29
+    },
+    {
+      "term": "GPU",
+      "weight": 2.047217442008142,
+      "frequency": 26
+    },
+    {
+      "term": "nn",
+      "weight": 1.7645817010948501,
+      "frequency": 26
+    },
+    {
+      "term": "LoRA",
+      "weight": 1.8505166079060962,
+      "frequency": 26
+    },
+    {
+      "term": "部署",
+      "weight": 1.2782368610601058,
+      "frequency": 22
+    },
+    {
+      "term": "from",
+      "weight": 1.9183488677235516,
+      "frequency": 22
+    },
+    {
+      "term": "for",
+      "weight": 1.789613226845272,
+      "frequency": 21
+    },
+    {
+      "term": "in",
+      "weight": 4.093314643737811,
+      "frequency": 20
+    },
+    {
+      "term": "vllm",
+      "weight": 1.1790596447361732,
+      "frequency": 19
+    },
+    {
+      "term": "TensorRT",
+      "weight": 1.2797559641627574,
+      "frequency": 17
+    },
+    {
+      "term": "显存",
+      "weight": 2.0217303084751657,
+      "frequency": 16
+    },
+    {
+      "term": "LM",
+      "weight": 1.877958855298987,
+      "frequency": 16
+    },
+    {
+      "term": "Ollama",
+      "weight": 1.400379308983746,
+      "frequency": 16
+    },
+    {
+      "term": "2%",
+      "weight": 0.8277210191830412,
+      "frequency": 16
+    },
+    {
+      "term": "LLM",
+      "weight": 1.491449430797779,
+      "frequency": 16
+    },
+    {
+      "term": "使用",
+      "weight": 2.5905905063894727,
+      "frequency": 15
+    },
+    {
+      "term": "API",
+      "weight": 0.44998751433551853,
+      "frequency": 15
+    },
+    {
+      "term": "配置",
+      "weight": 2.485696250278558,
+      "frequency": 15
+    },
+    {
+      "term": "Studio",
+      "weight": 2.4441291752151564,
+      "frequency": 15
+    },
+    {
+      "term": "install",
+      "weight": 3.2369473099345702,
+      "frequency": 15
+    },
+    {
+      "term": "size",
+      "weight": 1.8874335683943304,
+      "frequency": 15
+    },
+    {
+      "term": "推理",
+      "weight": 0.7431648850354071,
+      "frequency": 14
+    },
+    {
+      "term": "可以",
+      "weight": 0.756494466233638,
+      "frequency": 14
+    },
+    {
+      "term": "量化",
+      "weight": 3.107052659886412,
+      "frequency": 14
+    },
+    {
+      "term": "pip",
+      "weight": 0.5108144374807868,
+      "frequency": 14
+    },
+    {
+      "term": "1)",
+      "weight": 1.556730839643109,
+      "frequency": 14
+    },
+    {
+      "term": "DR",
+      "weight": 1.0454035624085152,
+      "frequency": 14
+    },
+    {
+      "term": "Qwen",
+      "weight": 1.3906983702681228,
+      "frequency": 13
+    },
+    {
+      "term": "7B",
+      "weight": 0.7648223206598391,
+      "frequency": 13
+    },
+    {
+      "term": "场景",
+      "weight": 1.1163220062658712,
+      "frequency": 13
+    },
+    {
+      "term": "优化",
+      "weight": 2.37440422086934,
+      "frequency": 13
+    },
+    {
+      "term": "image",
+      "weight": 2.379568687434455,
+      "frequency": 13
+    },
+    {
+      "term": "torch",
+      "weight": 2.810983019581314,
+      "frequency": 13
+    },
+    {
+      "term": "89",
+      "weight": 1.9901952639462106,
+      "frequency": 13
+    },
+    {
+      "term": "ollama",
+      "weight": 1.9514267121738078,
+      "frequency": 13
+    },
+    {
+      "term": "embed",
+      "weight": 1.9038374147661417,
+      "frequency": 13
+    },
+    {
+      "term": "技术",
+      "weight": 1.9119550974962345,
+      "frequency": 12
+    },
+    {
+      "term": "架构",
+      "weight": 1.4445744656211224,
+      "frequency": 12
+    },
+    {
+      "term": "方案",
+      "weight": 1.8099502676529475,
+      "frequency": 12
+    },
+    {
+      "term": "5%",
+      "weight": 0.7835935697521337,
+      "frequency": 12
+    },
+    {
+      "term": "if",
+      "weight": 1.1321852500704401,
+      "frequency": 12
+    },
+    {
+      "term": "```bash",
+      "weight": 0.8133655877679827,
+      "frequency": 12
+    },
+    {
+      "term": "并发",
+      "weight": 0.7872371018408113,
+      "frequency": 11
+    },
+    {
+      "term": "建议",
+      "weight": 0.5363763183402539,
+      "frequency": 11
+    },
+    {
+      "term": "NVIDIA",
+      "weight": 0.9085514621485269,
+      "frequency": 11
+    },
+    {
+      "term": "3%",
+      "weight": 0.9676397620214474,
+      "frequency": 11
+    },
+    {
+      "term": "score",
+      "weight": 1.4138427822836488,
+      "frequency": 11
+    },
+    {
+      "term": "python",
+      "weight": 0.7725865396372706,
+      "frequency": 11
+    },
+    {
+      "term": "数据",
+      "weight": 0.6032535418314526,
+      "frequency": 10
+    },
+    {
+      "term": "安装",
+      "weight": 1.822257701777372,
+      "frequency": 10
+    },
+    {
+      "term": "FP16",
+      "weight": 1.034366630801509,
+      "frequency": 10
+    },
+    {
+      "term": "CT",
+      "weight": 1.833518318338204,
+      "frequency": 10
+    },
+    {
+      "term": "评估",
+      "weight": 2.8731969790477345,
+      "frequency": 10
+    },
+    {
+      "term": "时间",
+      "weight": 1.6916356797657766,
+      "frequency": 10
+    },
+    {
+      "term": "3×3×3)",
+      "weight": 2.114086698196558,
+      "frequency": 10
+    },
+    {
+      "term": "BN",
+      "weight": 0.8223656687812377,
+      "frequency": 10
+    },
+    {
+      "term": "ReLU",
+      "weight": 1.7476687604728427,
+      "frequency": 10
+    },
+    {
+      "term": "loss",
+      "weight": 2.539880053504168,
+      "frequency": 10
+    },
+    {
+      "term": "+=",
+      "weight": 1.214103839388001,
+      "frequency": 10
+    },
+    {
+      "term": "qwen2",
+      "weight": 1.2203686007790238,
+      "frequency": 10
+    },
+    {
+      "term": "--",
+      "weight": -0.7865794090351588,
+      "frequency": 10
+    },
+    {
+      "term": "70B",
+      "weight": 1.6216293302785807,
+      "frequency": 9
+    },
+    {
+      "term": "延迟",
+      "weight": 0.9445560960467422,
+      "frequency": 9
+    },
+    {
+      "term": "支持",
+      "weight": 1.1376424548990884,
+      "frequency": 9
+    },
+    {
+      "term": "检索",
+      "weight": 0.8381138016124181,
+      "frequency": 9
+    },
+    {
+      "term": "核心",
+      "weight": 1.2050320652163444,
+      "frequency": 9
+    },
+    {
+      "term": "预测",
+      "weight": 3.3256671503321193,
+      "frequency": 9
+    },
+    {
+      "term": "1%",
+      "weight": 1.4021217032972804,
+      "frequency": 9
+    },
+    {
+      "term": "8%",
+      "weight": 0.8750335370862923,
+      "frequency": 9
+    },
+    {
+      "term": "10",
+      "weight": 0.5872819039767273,
+      "frequency": 9
+    },
+    {
+      "term": "as",
+      "weight": 1.6445897479083227,
+      "frequency": 9
+    },
+    {
+      "term": "response",
+      "weight": 1.2937083945443735,
+      "frequency": 9
+    },
+    {
+      "term": "11",
+      "weight": 1.1011057196693539,
+      "frequency": 9
+    },
+    {
+      "term": "Attention",
+      "weight": 1.115307095033613,
+      "frequency": 9
+    },
+    {
+      "term": "------",
+      "weight": 1.4100456495536062,
+      "frequency": 9
+    },
+    {
+      "term": "box",
+      "weight": 0.5808155057886046,
+      "frequency": 9
+    },
+    {
+      "term": "1.1",
+      "weight": 1.2081334636194785,
+      "frequency": 8
+    },
+    {
+      "term": "1.2",
+      "weight": 1.9287461184615202,
+      "frequency": 8
+    },
+    {
+      "term": "训练",
+      "weight": 2.1519305050054784,
+      "frequency": 8
+    },
+    {
+      "term": "内存",
+      "weight": 1.8990446242812489,
+      "frequency": 8
+    },
+    {
+      "term": "INT4",
+      "weight": 1.7167037331657071,
+      "frequency": 8
+    },
+    {
+      "term": "请求",
+      "weight": 0.7239379385375555,
+      "frequency": 8
+    },
+    {
+      "term": "系统",
+      "weight": 3.3806224289077376,
+      "frequency": 8
+    },
+    {
+      "term": "方法",
+      "weight": 1.4052494583550192,
+      "frequency": 8
+    },
+    {
+      "term": "应用",
+      "weight": 1.8293219122019304,
+      "frequency": 8
+    },
+    {
+      "term": "分析",
+      "weight": 2.947530788491927,
+      "frequency": 8
+    },
+    {
+      "term": "通过",
+      "weight": 1.0518425637654625,
+      "frequency": 8
+    },
+    {
+      "term": "风险",
+      "weight": 0.6547059843415939,
+      "frequency": 8
+    }
+  ],
+  "trainingDocs": 14,
+  "totalTerms": 3994,
+  "optimizedTerms": 100,
+  "finalScore": 29.982377819548873,
+  "generations": 50,
+  "history": [
+    {
+      "bestScore": 29.92514716128824,
+      "meanScore": 29.595999544189528
+    },
+    {
+      "bestScore": 29.95300709790742,
+      "meanScore": 29.548904562452982
+    },
+    {
+      "bestScore": 29.95300709790742,
+      "meanScore": 29.725729954732856
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.68909351432539
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.71143071328378
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.758640349288118
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.74264177926325
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.760758059772037
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.819469209086076
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.79272143753379
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.779039441830587
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.785483139782524
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.799595217468227
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.78525064997361
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.7770346361118
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.688936610524127
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.79547568252775
+    },
+    {
+      "bestScore": 29.954434348489773,
+      "meanScore": 29.819153235609473
+    },
+    {
+      "bestScore": 29.956334276562437,
+      "meanScore": 29.833693014171246
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.87478132832203
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.83108471316849
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.846829058441273
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.838149917017283
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.8517340814116
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.845447589057347
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.874463259455165
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.87027114589887
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.890841565177347
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.906275727885156
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.903486095935484
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.882591162202708
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.858289846642464
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.890895780190668
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.889109765540496
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.925112401441282
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.915174488273145
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.91836448377102
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.930008290296723
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.910601088109797
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.940162817234146
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.89570266749925
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.9307824291131
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.919855849839546
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.88825720297864
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.89877315518931
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.854834190566756
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.849644274327716
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.91755133828197
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.928990609652494
+    },
+    {
+      "bestScore": 29.982377819548873,
+      "meanScore": 29.909150111816466
+    }
+  ]
+}

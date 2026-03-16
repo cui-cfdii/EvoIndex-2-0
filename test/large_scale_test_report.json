@@ -1,0 +1,70 @@
+{
+  "version": "v3-cmaes-optimized",
+  "timestamp": "2026-03-13T11:05:03.573Z",
+  "sampleCount": 10,
+  "averageScore": 71.66666666666664,
+  "perfectCount": 1,
+  "passRate": 10,
+  "results": [
+    {
+      "query": "中国 AI 发展历程",
+      "score": 30,
+      "normalizedScore": 100,
+      "tokens": 3
+    },
+    {
+      "query": "计算机视觉技术应用",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "开源大模型部署方案",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "LoRA 微调方法",
+      "score": 25,
+      "normalizedScore": 83.33333333333334,
+      "tokens": 2
+    },
+    {
+      "query": "智慧城市应用案例",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "人工智能在医疗领域的应用",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "深度学习模型优化技巧",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "自然语言处理技术综述",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "大模型训练数据准备",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    },
+    {
+      "query": "智能城市管理系统设计",
+      "score": 20,
+      "normalizedScore": 66.66666666666666,
+      "tokens": 1
+    }
+  ]
+}

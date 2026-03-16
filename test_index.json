@@ -1,0 +1,112 @@
+{
+  "title": "测试文档",
+  "root": {
+    "title": "Root",
+    "level": 0,
+    "children": [
+      {
+        "title": "测试文档",
+        "level": 1,
+        "children": [
+          {
+            "title": "第一章：简介",
+            "level": 2,
+            "children": [
+              {
+                "title": "1.1 核心功能",
+                "level": 3,
+                "children": [],
+                "content": ""
+              },
+              {
+                "title": "1.2 使用场景",
+                "level": 3,
+                "children": [],
+                "content": ""
+              }
+            ],
+            "content": ""
+          },
+          {
+            "title": "第二章：安装与配置",
+            "level": 2,
+            "children": [
+              {
+                "title": "2.1 环境要求",
+                "level": 3,
+                "children": [],
+                "content": ""
+              },
+              {
+                "title": "2.2 安装步骤",
+                "level": 3,
+                "children": [],
+                "content": ""
+              }
+            ],
+            "content": ""
+          },
+          {
+            "title": "第三章：使用方法",
+            "level": 2,
+            "children": [
+              {
+                "title": "3.1 构建索引",
+                "level": 3,
+                "children": [],
+                "content": ""
+              },
+              {
+                "title": "3.2 查询内容",
+                "level": 3,
+                "children": [],
+                "content": ""
+              }
+            ],
+            "content": ""
+          },
+          {
+            "title": "第四章：性能优化",
+            "level": 2,
+            "children": [
+              {
+                "title": "4.1 索引优化",
+                "level": 3,
+                "children": [],
+                "content": ""
+              },
+              {
+                "title": "4.2 查询优化",
+                "level": 3,
+                "children": [],
+                "content": ""
+              }
+            ],
+            "content": ""
+          },
+          {
+            "title": "第五章：常见问题",
+            "level": 2,
+            "children": [
+              {
+                "title": "5.1 索引构建失败",
+                "level": 3,
+                "children": [],
+                "content": ""
+              },
+              {
+                "title": "5.2 查询无结果",
+                "level": 3,
+                "children": [],
+                "content": ""
+              }
+            ],
+            "content": ""
+          }
+        ],
+        "content": ""
+      }
+    ],
+    "content": "\n这是一个测试文档，用于验证 PageIndex-CN 检索树构建功能。\n\n\nPageIndex-CN 是一个基于本地算力的层次化检索树构建系统。\n\n\n主要功能包括：\n\n1. 检索树构建\n2. 智能查询\n3. 章节级检索\n\n\n适用于需要快速检索长文档内容的场景。\n\n\n\n- Node.js v18+\n- 操作系统：Windows、macOS、Linux\n\n\n```bash\ngit clone https://github.com/example/pageindex-cn.git\ncd pageindex-cn\nnpm install\n```\n\n\n\n使用以下命令构建检索树：\n\n```bash\nnode src/tree.mjs input.md output.json\n```\n\n\n使用以下命令查询内容：\n\n```bash\nnode src/query_tree.mjs \"关键词\" output.json\n```\n\n\n\n通过合理的章节划分可以提高检索效率。\n\n\n使用精确的关键词可以获得更好的查询结果。\n\n\n\n检查输入文档格式是否正确。\n\n\n尝试使用更通用的关键词。\n"
+  }
+}

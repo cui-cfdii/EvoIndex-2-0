@@ -1,0 +1,93 @@
+{
+  "version": "v5-jieba-cmaes-optimized",
+  "domain": "large-language-models",
+  "timestamp": "2026-03-13T13:03:35.383Z",
+  "sampleCount": 10,
+  "averageRecall": 0.9666666666666668,
+  "perfectCount": 9,
+  "passCount": 9,
+  "perfectRate": 90,
+  "passRate": 90,
+  "results": [
+    {
+      "query": "大模型部署方案",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "开源大模型对比",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "LoRA 微调方法",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "大模型训练数据",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "模型量化技术",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "推理加速方案",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "LM Studio 使用",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "Ollama 部署",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "vLLM 性能优化",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "ModelScope 模型",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    }
+  ]
+}

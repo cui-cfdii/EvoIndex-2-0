@@ -1,0 +1,731 @@
+{
+  "timestamp": "2026-03-13T08:21:49.805Z",
+  "algorithm": "self_evolving_tokenizer_v2",
+  "iterations": 50,
+  "duration": 2055.22,
+  "initialScore": 0.5,
+  "finalScore": 0.5,
+  "improvement": 0,
+  "totalIterations": 50,
+  "rollbacks": 0,
+  "results": [
+    {
+      "generation": 1,
+      "original": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 2,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 3,
+      "original": [
+        "智能城市",
+        "管理系统",
+        "设计"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 4,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 5,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 6,
+      "original": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 7,
+      "original": [
+        "智能城市",
+        "管理系统",
+        "设计"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 8,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 9,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 10,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 11,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 12,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 13,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 14,
+      "original": [
+        "自然语言处理",
+        "技术",
+        "综述"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 15,
+      "original": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 16,
+      "original": [
+        "深度学习",
+        "模型",
+        "优化",
+        "技巧"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 17,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 18,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 19,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 20,
+      "original": [
+        "中国",
+        "AI",
+        "发展历程"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 21,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 22,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 23,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 24,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 25,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 26,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 27,
+      "original": [
+        "中国",
+        "AI",
+        "发展历程"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 28,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 29,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 30,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 31,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 32,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 33,
+      "original": [
+        "大模型",
+        "训练",
+        "数据",
+        "准备"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 34,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 35,
+      "original": [
+        "自然语言处理",
+        "技术",
+        "综述"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 36,
+      "original": [
+        "中国",
+        "AI",
+        "发展历程"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 37,
+      "original": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 38,
+      "original": [
+        "自然语言处理",
+        "技术",
+        "综述"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 39,
+      "original": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 40,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 41,
+      "original": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 42,
+      "original": [
+        "自然语言处理",
+        "技术",
+        "综述"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 43,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 44,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 45,
+      "original": [
+        "自然语言处理",
+        "技术",
+        "综述"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 46,
+      "original": [
+        "深度学习",
+        "模型",
+        "优化",
+        "技巧"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 47,
+      "original": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 48,
+      "original": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 49,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    },
+    {
+      "generation": 50,
+      "original": [
+        "人工智能",
+        "在",
+        "医疗",
+        "领域",
+        "的",
+        "应用"
+      ],
+      "score": 0.5,
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "rolledBack": false
+    }
+  ],
+  "cacheHitRate": 0,
+  "dictionary": {
+    "customDict": [
+      "人工智能",
+      "AI",
+      "大模型",
+      "LLM",
+      "深度学习",
+      "机器学习",
+      "神经网络",
+      "自然语言处理",
+      "NLP",
+      "计算机视觉",
+      "CV",
+      "图像识别",
+      "目标检测",
+      "开源",
+      "部署",
+      "微调",
+      "fine-tuning",
+      "LoRA",
+      "智慧城市",
+      "智能城市",
+      "城市大脑",
+      "发展历程",
+      "演进",
+      "里程碑",
+      "应用场景",
+      "落地",
+      "案例",
+      "检索",
+      "召回率",
+      "准确率",
+      "RAG",
+      "索引",
+      "查询",
+      "检索引擎",
+      "Qwen",
+      "通义千问",
+      "百度",
+      "阿里",
+      "腾讯",
+      "LM Studio",
+      "Ollama",
+      "vLLM",
+      "ModelScope"
+    ],
+    "bestState": {
+      "score": 0.5,
+      "tokens": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "dict": {},
+      "generation": 1
+    },
+    "metrics": {
+      "avgScore": 0.5,
+      "bestScore": 0.5,
+      "totalIterations": 50,
+      "cacheHits": 0,
+      "cacheMisses": 50,
+      "rollbacks": 0
+    },
+    "generation": 50
+  }
+}

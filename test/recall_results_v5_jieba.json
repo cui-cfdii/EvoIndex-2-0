@@ -1,0 +1,106 @@
+{
+  "version": "v5-jieba-fixed",
+  "avgRecall": 1,
+  "testCount": 5,
+  "passed": true,
+  "improvement": 0.17800000000000005,
+  "results": [
+    {
+      "query": "中国 AI 发展历程",
+      "recall": 1,
+      "fileMatched": true,
+      "queryTokens": [
+        "中国",
+        "AI",
+        "发展历程"
+      ],
+      "bestMatch": {
+        "filename": "chinese_ai_report.md",
+        "score": 1,
+        "matchedTokens": [
+          "中国",
+          "AI",
+          "发展历程"
+        ]
+      }
+    },
+    {
+      "query": "计算机视觉技术应用",
+      "recall": 1,
+      "fileMatched": true,
+      "queryTokens": [
+        "计算机视觉",
+        "技术",
+        "应用"
+      ],
+      "bestMatch": {
+        "filename": "chinese_ai_report.md",
+        "score": 1,
+        "matchedTokens": [
+          "计算机视觉",
+          "技术",
+          "应用"
+        ]
+      }
+    },
+    {
+      "query": "开源大模型部署方案",
+      "recall": 1,
+      "fileMatched": true,
+      "queryTokens": [
+        "开源",
+        "大模型",
+        "部署",
+        "方案"
+      ],
+      "bestMatch": {
+        "filename": "open_source_llm_guide.md",
+        "score": 1,
+        "matchedTokens": [
+          "开源",
+          "大模型",
+          "部署",
+          "方案"
+        ]
+      }
+    },
+    {
+      "query": "LoRA 微调方法",
+      "recall": 1,
+      "fileMatched": true,
+      "queryTokens": [
+        "LoRA",
+        "微调",
+        "方法"
+      ],
+      "bestMatch": {
+        "filename": "open_source_llm_guide.md",
+        "score": 1,
+        "matchedTokens": [
+          "LoRA",
+          "微调",
+          "方法"
+        ]
+      }
+    },
+    {
+      "query": "智慧城市应用案例",
+      "recall": 1,
+      "fileMatched": true,
+      "queryTokens": [
+        "智慧城市",
+        "应用",
+        "案例"
+      ],
+      "bestMatch": {
+        "filename": "chinese_ai_report.md",
+        "score": 1,
+        "matchedTokens": [
+          "智慧城市",
+          "应用",
+          "案例"
+        ]
+      }
+    }
+  ]
+}

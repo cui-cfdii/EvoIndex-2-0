@@ -1,0 +1,419 @@
+{
+  "version": "v5-jieba-cmaes-optimized-with-articles-fixed",
+  "timestamp": "2026-03-13T19:37:03.916Z",
+  "sampleCount": 50,
+  "averageRecall": 0.49,
+  "perfectCount": 24,
+  "passCount": 24,
+  "perfectRate": 48,
+  "passRate": 48,
+  "categories": {
+    "医疗 AI": 0.6,
+    "大模型": 0.26666666666666666,
+    "AI 技术": 0.45,
+    "法律科技": 0.4,
+    "金融科技": 1
+  },
+  "results": [
+    {
+      "query": "医学影像分析",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "肺结节检测",
+      "expectedFile": "01_肺结节检测.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "眼底疾病筛查",
+      "expectedFile": "02_眼底疾病筛查.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "药物研发 AI 辅助",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 4
+    },
+    {
+      "query": "临床决策支持",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "个性化治疗",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "3D U-Net 架构",
+      "expectedFile": "01_肺结节检测.md",
+      "matchedFile": "01_肺结节检测.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 5
+    },
+    {
+      "query": "糖尿病视网膜病变",
+      "expectedFile": "02_眼底疾病筛查.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "CT 影像处理",
+      "expectedFile": "01_肺结节检测.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "Grad-CAM 可解释性",
+      "expectedFile": "02_眼底疾病筛查.md",
+      "matchedFile": "02_眼底疾病筛查.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 5
+    },
+    {
+      "query": "注意力机制",
+      "expectedFile": "01_肺结节检测.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "NMPA 审批",
+      "expectedFile": "02_眼底疾病筛查.md",
+      "matchedFile": "02_眼底疾病筛查.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "DICOM 集成",
+      "expectedFile": "01_肺结节检测.md",
+      "matchedFile": "01_肺结节检测.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智能诊疗系统",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "基因组学应用",
+      "expectedFile": "medical_ai_guide.md",
+      "matchedFile": "medical_ai_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "大模型部署方案",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "LoRA 微调方法",
+      "expectedFile": "02_LoRA 微调实战.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "模型量化技术",
+      "expectedFile": "03_大模型推理优化实战.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "推理加速方案",
+      "expectedFile": "03_大模型推理优化实战.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "LM Studio 使用",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "Ollama 部署",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "vLLM 性能优化",
+      "expectedFile": "03_大模型推理优化实战.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "ModelScope 模型",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "大模型训练数据",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "开源大模型对比",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "03_大模型推理优化实战.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "PagedAttention",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 1
+    },
+    {
+      "query": "Continuous Batching",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "AWQ 量化",
+      "expectedFile": "03_大模型推理优化实战.md",
+      "matchedFile": "01_大模型部署最佳实践.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "GGUF 格式",
+      "expectedFile": "01_大模型部署最佳实践.md",
+      "matchedFile": "01_大模型部署最佳实践.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "QLoRA 微调",
+      "expectedFile": "02_LoRA 微调实战.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "计算机视觉应用",
+      "expectedFile": "01_YOLOv8 目标检测实战.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "自然语言处理技术",
+      "expectedFile": "02_自然语言处理技术.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "YOLOv8 目标检测",
+      "expectedFile": "01_YOLOv8 目标检测实战.md",
+      "matchedFile": "01_YOLOv8 目标检测实战.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "Transformer 架构",
+      "expectedFile": "02_自然语言处理技术.md",
+      "matchedFile": "02_LoRA 微调实战.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "BERT 模型",
+      "expectedFile": "02_自然语言处理技术.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "机器学习算法",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智慧城市应用",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "知识图谱构建",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "01_AI 法律科技实战.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "数据挖掘技术",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智能推荐系统",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "智能合同审查",
+      "expectedFile": "01_AI 法律科技实战.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "合同风险识别",
+      "expectedFile": "01_AI 法律科技实战.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "法律检索系统",
+      "expectedFile": "legal_tech_practice.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "诉讼预测",
+      "expectedFile": "legal_tech_practice.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "合规管理",
+      "expectedFile": "01_AI 法律科技实战.md",
+      "matchedFile": "legal_tech_practice.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "信用风险评估",
+      "expectedFile": "fintech_risk_management.md",
+      "matchedFile": "fintech_risk_management.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "个人信用评分",
+      "expectedFile": "fintech_risk_management.md",
+      "matchedFile": "fintech_risk_management.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "反欺诈系统",
+      "expectedFile": "fintech_risk_management.md",
+      "matchedFile": "fintech_risk_management.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "量化交易",
+      "expectedFile": "fintech_risk_management.md",
+      "matchedFile": "fintech_risk_management.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智能投顾",
+      "expectedFile": "fintech_risk_management.md",
+      "matchedFile": "fintech_risk_management.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    }
+  ]
+}

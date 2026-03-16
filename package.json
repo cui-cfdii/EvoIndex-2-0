@@ -1,0 +1,41 @@
+{
+  "name": "pageindex-cn",
+  "version": "2.0.0",
+  "description": "基于 GraphRAG 思想的高性能混合检索系统",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "node src/index.mjs build",
+    "query": "node src/index.mjs query",
+    "enhance": "node src/index.mjs enhance",
+    "explain": "node src/index.mjs explain",
+    "test": "npm run test:simple",
+    "test:simple": "node test/simple_test.mjs",
+    "test:recall": "node test/recall_test.mjs",
+    "test:recall:v2": "node test/recall_test_v2.mjs",
+    "test:recall:v3": "node test/recall_test_v3.mjs",
+    "test:recall:agent": "node test/recall_test_v4_agent.mjs",
+    "lint": "eslint src/**/*.mjs"
+  },
+  "keywords": [
+    "rag",
+    "retrieval",
+    "graphrag",
+    "knowledge-graph",
+    "llm"
+  ],
+  "author": "耗电马喽 🐎⚡",
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "^0.25.4",
+    "graphology-layout": "^0.6.1",
+    "@lmstudio/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "benchmark": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

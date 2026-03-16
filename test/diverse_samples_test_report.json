@@ -1,0 +1,419 @@
+{
+  "version": "v5-jieba-cmaes-optimized",
+  "timestamp": "2026-03-13T12:54:36.140Z",
+  "sampleCount": 50,
+  "averageRecall": 0.6166666666666667,
+  "perfectCount": 21,
+  "passCount": 21,
+  "perfectRate": 42,
+  "passRate": 42,
+  "categories": {
+    "AI 技术": 0.7,
+    "大模型": 0.9666666666666668,
+    "智慧城市": 0.6833333333333333,
+    "开发实践": 0.2,
+    "前沿技术": 0.5333333333333334
+  },
+  "results": [
+    {
+      "query": "中国 AI 发展历程",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "计算机视觉技术应用",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "自然语言处理技术",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "深度学习模型优化",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "机器学习算法分类",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "神经网络架构设计",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "强化学习应用",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "知识图谱构建",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.33333333333333337,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "数据挖掘技术",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智能推荐系统",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "大模型部署方案",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "开源大模型对比",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "LoRA 微调方法",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "大模型训练数据",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "模型量化技术",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "推理加速方案",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "LM Studio 使用",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "Ollama 部署",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "vLLM 性能优化",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "ModelScope 模型",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智慧城市应用案例",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "城市大脑系统",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智能交通管理",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "智慧医疗应用",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "智能城市设计",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "无",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "物联网系统",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "5G 通信技术",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "边缘计算部署",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "云计算平台",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.4166666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "区块链应用",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5833333333333334,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "微服务架构设计",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.4166666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "DevOps 实践",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "容器化部署",
+      "expectedFile": "open_source_llm_guide.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0.5833333333333334,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "Kubernetes 集群",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "CI/CD 流水线",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "test_document.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 4
+    },
+    {
+      "query": "代码质量评估",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "软件测试方法",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "敏捷开发流程",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 3
+    },
+    {
+      "query": "API 设计规范",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "open_source_llm_guide.md",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "数据库优化",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "量子计算进展",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "生物信息学",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "无",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "基因组学数据",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "药物研发 AI",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "金融风控模型",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.6666666666666667,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "搜索引擎优化",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 0.5,
+      "fileMatched": true,
+      "tokens": 2
+    },
+    {
+      "query": "网络安全防护",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "无",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "数据隐私保护",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    },
+    {
+      "query": "GDPR 合规",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "无",
+      "recall": 0,
+      "fileMatched": false,
+      "tokens": 2
+    },
+    {
+      "query": "技术趋势分析",
+      "expectedFile": "chinese_ai_report.md",
+      "matchedFile": "chinese_ai_report.md",
+      "recall": 1,
+      "fileMatched": true,
+      "tokens": 3
+    }
+  ]
+}
