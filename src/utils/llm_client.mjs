@@ -17,23 +17,13 @@ const HEALTH_CHECK_TTL = 30000; // 30 秒
 
 export class LLMClient {
   constructor(config = {}) {
-    // 生成实例 key
-    const instanceKey = `${config.baseURL || 'default'}|${config.model || 'default'}`;
-    
-    // 检查是否已有实例
-    if (instanceCache.has(instanceKey)) {
-      return instanceCache.get(instanceKey);
-    }
-    
-    this.baseURL = config.baseURL || process.env.LLM_BASE_URL || 'http://127.0.0.1:5000';
-    this.model = config.model || process.env.LLM_MODEL || 'qwen3.5-35b-a3b';
+    // 禁用单例模式，每次创建新实例
+    this.baseURL = config.baseURL || process.env.LLM_BASE_URL || 'http://172.16.8.69:11434/v1';
+    this.model = config.model || process.env.LLM_MODEL || 'qwen/qwen3.5-9b';
     this.temperature = config.temperature || 0.3;
-    this.maxTokens = config.maxTokens || 2000;
+    this.maxTokens = config.maxTokens || 3000;
     
-    // 缓存实例
-    instanceCache.set(instanceKey, this);
-    
-    console.log(`✅ LLM 客户端已初始化 (单例): ${this.baseURL} | ${this.model}`);
+    console.log(`✅ LLM 客户端已初始化: ${this.baseURL} | ${this.model}`);
   }
 
   /**
@@ -87,7 +77,8 @@ export class LLMClient {
       throw new Error('LLM API returned no choices');
     }
 
-    return data.choices[0].message.content;
+    const msg = data.choices[0].message;
+    return msg.content || msg.reasoning_content || '';
   }
 
   /**

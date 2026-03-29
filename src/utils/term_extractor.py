@@ -264,7 +264,11 @@ def main():
     
     else:
         print(f"❌ 未知命令：{command}")
-        main()
+        print("\n📖 用法:")
+        print("  python term_extractor.py test               # 运行测试")
+        print("  python term_extractor.py dir <path> <out> # 从目录提取术语")
+        print("  python term_extractor.py extract <file> <out> # 从文件提取术语")
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()

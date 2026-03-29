@@ -14,6 +14,7 @@
 - ✅ **领域自适应**: 5 个专业领域（AI/医疗/法律/金融/LLM）
 - ✅ **召回率验证**: 自动验证，<92% 触发优化/回滚
 - ✅ **零 LLM 依赖**: 规则评估快 1000 倍，零成本
+- ✅ **PDF 解析支持**: OpenDataLoader PDF + MinerU 双引擎（2026-03-21 新增）
 
 ---
 
@@ -85,7 +86,85 @@ node test/recall_test_v5_jieba.mjs
 
 # 3. 自进化流程（完整）
 ./scripts/self_evolution.sh medical_ai "肺结节检测 AI"
+
+# 4. PDF 解析测试（新增）
+node test/integration_test_pdf.mjs
+
+# 5. PDF 使用示例（新增）
+node examples/pdf_usage.mjs
 ```
+
+---
+
+## 📄 PDF 解析功能（新增）
+
+### 支持的 PDF 引擎
+
+| 引擎 | 特点 | 适用场景 |
+|------|------|----------|
+| **OpenDataLoader PDF** | 零 GPU、轻量级、快速 | 默认推荐，日常使用 |
+| **MinerU** | GPU 加速、高精度公式识别 | 科研论文、技术文档 |
+
+### 快速使用
+
+```bash
+# 解析单个 PDF
+node src/core/tree.mjs document.pdf index.json
+
+# 指定引擎
+node src/core/tree.mjs document.pdf index.json --engine opendataloader
+
+# 使用 MinerU（GPU 加速）
+node src/core/tree.mjs document.pdf index.json --engine mineru --use-gpu
+
+# 详细输出
+node src/core/tree.mjs document.pdf index.json --verbose
+```
+
+### API 使用
+
+```javascript
+import { parseDocument } from './src/core/parser.mjs';
+
+// 自动检测文档类型
+const doc = await parseDocument('document.pdf');
+
+// 指定 PDF 引擎
+const doc = await parseDocument('document.pdf', {
+  engine: 'opendataloader',  // 或 'mineru'
+  useGPU: false,
+  verbose: true
+});
+
+console.log(doc.type);        // 'pdf'
+console.log(doc.content);     // Markdown 格式内容
+console.log(doc.sections);    // 章节列表
+```
+
+### 安装依赖
+
+```bash
+# OpenDataLoader PDF（推荐）
+npx skillhub install opendataloader-pdf
+
+# MinerU（可选，需要 GPU）
+pip install mineru
+```
+
+### 批量解析
+
+```javascript
+import { createPDFParser } from './src/core/pdf_parser.mjs';
+
+const parser = createPDFParser({ engine: 'opendataloader' });
+
+const result = await parser.parseBatch(['doc1.pdf', 'doc2.pdf', 'doc3.pdf']);
+
+console.log(`成功：${result.success}/${result.total}`);
+```
+
+**详细文档**: [docs/PDF_INTEGRATION.md](docs/PDF_INTEGRATION.md)  
+**使用示例**: [examples/pdf_usage.mjs](examples/pdf_usage.mjs)
 
 ---
 
@@ -101,15 +180,23 @@ EvoIndex-CN/
 │   ├── agents/
 │   │   └── term_evaluator.mjs      # 术语评估器
 │   └── core/
-│       ├── parser.mjs              # 文档解析器
-│       ├── tree.mjs                # 树索引构建器（保留）
-│       └── query_tree.mjs          # 查询引擎（保留）
+│       ├── parser.mjs              # 文档解析器（支持 MD/PDF）
+│       ├── pdf_parser.mjs          # PDF 解析器（新增）
+│       ├── opendataloader_adapter.mjs  # OpenDataLoader 适配器（新增）
+│       ├── mineru_adapter.mjs      # MinerU 适配器（新增）
+│       ├── tree.mjs                # 树索引构建器
+│       └── query_tree.mjs          # 查询引擎
 ├── scripts/
 │   ├── fetch_articles.js           # Tavily 文章抓取器
 │   └── self_evolution.sh           # 自进化主脚本
 ├── test/
 │   ├── recall_test_v5_jieba.mjs    # 召回率测试
-│   └── auto_optimize_weights.mjs   # 权重优化器
+│   ├── pdf_parser_test.mjs         # PDF 单元测试（新增）
+│   └── integration_test_pdf.mjs    # PDF 集成测试（新增）
+├── examples/
+│   └── pdf_usage.mjs               # PDF 使用示例（新增）
+├── reports/
+│   └── code_review_pdf.md          # 代码审查报告（新增）
 ├── data/
 │   ├── articles/                   # 互联网文章（按领域分类）
 │   │   ├── medical_ai/             # 医疗 AI（5 篇）
@@ -121,6 +208,10 @@ EvoIndex-CN/
     ├── ARCHITECTURE.md             # 架构设计
     ├── DEPLOYMENT.md               # 部署指南
     ├── ALGORITHM_ANALYSIS.md       # 算法分析
+    ├── TERM_GRAPH_DESIGN.md        # 术语图设计
+    ├── FINAL_SUMMARY.md            # 项目总结
+    └── PDF_INTEGRATION.md          # PDF 集成文档（新增）
+```
     ├── TERM_GRAPH_DESIGN.md        # 术语图设计
     └── FINAL_SUMMARY.md            # 项目总结
 ```
