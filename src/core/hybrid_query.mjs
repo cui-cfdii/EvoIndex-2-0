@@ -171,7 +171,7 @@ export class HybridQueryEngine {
     }
 
     const topK = options.topK || 10;
-    const minScore = options.minScore || 0.3;
+    const minScore = options.minScore || 0;
 
     console.log('🔍 查询:', query);
 
@@ -186,17 +186,28 @@ export class HybridQueryEngine {
       return [];
     }
 
+    // 调试：显示原始结果
+    if (options.debug) {
+      console.log('📋 原始结果（过滤前）:');
+      results.forEach((r, i) => {
+        console.log(`  ${i + 1}. ${r.node.title.substring(0, 50)}... score=${r.score.toFixed(2)}`);
+      });
+      console.log();
+    }
+
     // 按分数排序
     results.sort((a, b) => b.score - a.score);
 
     // 过滤低分结果
     const filtered = results.filter(r => r.score >= minScore);
 
+    console.log(`📊 过滤后: ${filtered.length} 个结果（阈值: ${minScore}）\n`);
+
     // 取 Top K
     const topResults = filtered.slice(0, topK);
 
     // 显示结果
-    this.displayResults(topResults, query);
+    this.displayResults(topResults, query, options);
 
     return topResults;
   }
@@ -204,7 +215,7 @@ export class HybridQueryEngine {
   /**
    * 显示结果
    */
-  displayResults(results, query) {
+  displayResults(results, query, options = {}) {
     console.log(`\n📊 排序结果 (Top ${results.length}):\n`);
 
     for (let i = 0; i < results.length; i++) {

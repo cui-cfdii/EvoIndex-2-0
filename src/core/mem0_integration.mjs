@@ -155,6 +155,18 @@ export class Mem0IntegrationService {
   }
 
   /**
+   * 获取领域兴趣（代理方法）
+   */
+  async getDomainInterests() {
+    try {
+      return await this.localMemory.getDomainInterests();
+    } catch (error) {
+      console.error('❌ 获取领域兴趣失败:', error);
+      return { domains: {} };
+    }
+  }
+
+  /**
    * 存储反馈
    */
   async storeFeedback(query, feedback, rating) {

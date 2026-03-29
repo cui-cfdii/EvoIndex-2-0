@@ -55,6 +55,7 @@ function parseMarkdown(content) {
 
       parent.children.push(node);
       levelMap[level] = node;
+      currentLevel = level;  // ← 修复：更新当前层级
     } else {
       // 添加内容到当前节点
       const currentNode = levelMap[currentLevel] || tree.root;
